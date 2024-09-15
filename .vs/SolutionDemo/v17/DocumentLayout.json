@@ -1,0 +1,530 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\mauiblazor\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|solutionrelative:mauiblazor\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\mauiblazor\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|solutionrelative:mauiblazor\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\mauiblazor\\platforms\\android\\resources\\xml\\network_security_config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|solutionrelative:mauiblazor\\platforms\\android\\resources\\xml\\network_security_config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\mauiblazor\\components\\pages\\deleteproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|solutionrelative:mauiblazor\\components\\pages\\deleteproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\mauiblazor\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|solutionrelative:mauiblazor\\components\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\mauiblazor\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|solutionrelative:mauiblazor\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\mauiblazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|solutionrelative:mauiblazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\mauiblazor\\components\\pages\\editproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|solutionrelative:mauiblazor\\components\\pages\\editproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\mauiblazor\\components\\pages\\createproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|solutionrelative:mauiblazor\\components\\pages\\createproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\blazorweb\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|solutionrelative:blazorweb\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\blazorweb\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|solutionrelative:blazorweb\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\minimalapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\blazorweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|solutionrelative:blazorweb\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\mauiblazor\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|solutionrelative:mauiblazor\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\mauiblazor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0F4AD8CF-B9E7-41A7-9345-B2BDEF5A4CA8}|MauiBlazor\\MauiBlazor.csproj|solutionrelative:mauiblazor\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\minimalapi\\respuestatransacciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\respuestatransacciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\minimalapi\\productendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\productendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\minimalapi\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\userendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\minimalapi\\constants\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\constants\\mensaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\minimalapi\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\minimalapi\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\minimalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AE14539-F1F8-4BE6-9D37-4E1CD40290DB}|Business\\Business.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\business\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AE14539-F1F8-4BE6-9D37-4E1CD40290DB}|Business\\Business.csproj|solutionrelative:business\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{671812EE-D025-4D5F-9899-8245CB042F28}|DataAccess\\DataAccess.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\dataaccess\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{671812EE-D025-4D5F-9899-8245CB042F28}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\minimalapi\\authenticationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D889F699-4153-4FB5-B3E3-CB5AAEA91FAB}|MinimalApi\\MinimalApi.csproj|solutionrelative:minimalapi\\authenticationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\blazorweb\\pages\\deleteproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|solutionrelative:blazorweb\\pages\\deleteproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\blazorweb\\pages\\editproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|solutionrelative:blazorweb\\pages\\editproduct.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\blazorweb\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|solutionrelative:blazorweb\\pages\\products.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|d:\\latinonetsetiembre2024\\demo\\nlayer\\blazorweb\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E374706A-34F3-40D6-B4F9-5C1C85960833}|BlazorWeb\\BlazorWeb.csproj|solutionrelative:blazorweb\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "MauiBlazor\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "MauiBlazor\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwIAAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-09-14T16:25:20.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "network_security_config.xml",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Platforms\\Android\\Resources\\xml\\network_security_config.xml",
+              "RelativeDocumentMoniker": "MauiBlazor\\Platforms\\Android\\Resources\\xml\\network_security_config.xml",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Platforms\\Android\\Resources\\xml\\network_security_config.xml",
+              "RelativeToolTip": "MauiBlazor\\Platforms\\Android\\Resources\\xml\\network_security_config.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-09-14T16:23:20.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeleteProduct.razor",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Components\\Pages\\DeleteProduct.razor",
+              "RelativeDocumentMoniker": "MauiBlazor\\Components\\Pages\\DeleteProduct.razor",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Components\\Pages\\DeleteProduct.razor",
+              "RelativeToolTip": "MauiBlazor\\Components\\Pages\\DeleteProduct.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T16:21:31.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditProduct.razor",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Components\\Pages\\EditProduct.razor",
+              "RelativeDocumentMoniker": "MauiBlazor\\Components\\Pages\\EditProduct.razor",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Components\\Pages\\EditProduct.razor",
+              "RelativeToolTip": "MauiBlazor\\Components\\Pages\\EditProduct.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T16:21:11.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Products.razor",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Components\\Pages\\Products.razor",
+              "RelativeDocumentMoniker": "MauiBlazor\\Components\\Pages\\Products.razor",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Components\\Pages\\Products.razor",
+              "RelativeToolTip": "MauiBlazor\\Components\\Pages\\Products.razor",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAADUAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T16:20:29.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiBlazor\\MauiProgram.cs",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\MauiProgram.cs",
+              "RelativeToolTip": "MauiBlazor\\MauiProgram.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAIwB4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:11:37.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateProduct.razor",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Components\\Pages\\CreateProduct.razor",
+              "RelativeDocumentMoniker": "MauiBlazor\\Components\\Pages\\CreateProduct.razor",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Components\\Pages\\CreateProduct.razor",
+              "RelativeToolTip": "MauiBlazor\\Components\\Pages\\CreateProduct.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T16:20:59.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "MauiBlazor\\Components\\Pages\\Login.razor",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "MauiBlazor\\Components\\Pages\\Login.razor",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAACcAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T16:17:07.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "MauiBlazor\\Components\\Pages\\Home.razor",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "MauiBlazor\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T16:10:51.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MinimalApi\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MinimalApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-14T16:14:17.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "BlazorWeb\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\Properties\\launchSettings.json",
+              "RelativeToolTip": "BlazorWeb\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-14T16:14:02.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Mensaje.cs",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\Constants\\Mensaje.cs",
+              "RelativeDocumentMoniker": "MinimalApi\\Constants\\Mensaje.cs",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\Constants\\Mensaje.cs",
+              "RelativeToolTip": "MinimalApi\\Constants\\Mensaje.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:02:48.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "BlazorWeb\\Pages\\Login.razor",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\Pages\\Login.razor",
+              "RelativeToolTip": "BlazorWeb\\Pages\\Login.razor",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T15:38:42.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorWeb\\wwwroot\\appsettings.json",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "BlazorWeb\\wwwroot\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-14T15:38:16.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RespuestaTransaccionDto.cs",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\RespuestaTransaccionDto.cs",
+              "RelativeDocumentMoniker": "MinimalApi\\RespuestaTransaccionDto.cs",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\RespuestaTransaccionDto.cs",
+              "RelativeToolTip": "MinimalApi\\RespuestaTransaccionDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:04:39.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\ITokenService.cs",
+              "RelativeDocumentMoniker": "MinimalApi\\ITokenService.cs",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\ITokenService.cs",
+              "RelativeToolTip": "MinimalApi\\ITokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:00:09.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\TokenService.cs",
+              "RelativeDocumentMoniker": "MinimalApi\\TokenService.cs",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\TokenService.cs",
+              "RelativeToolTip": "MinimalApi\\TokenService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T15:59:51.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\Program.cs",
+              "RelativeDocumentMoniker": "MinimalApi\\Program.cs",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\Program.cs",
+              "RelativeToolTip": "MinimalApi\\Program.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAgwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T15:43:24.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductEndpoints.cs",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\ProductEndpoints.cs",
+              "RelativeDocumentMoniker": "MinimalApi\\ProductEndpoints.cs",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\ProductEndpoints.cs",
+              "RelativeToolTip": "MinimalApi\\ProductEndpoints.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAwFsAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T16:03:31.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\App.xaml",
+              "RelativeDocumentMoniker": "MauiBlazor\\App.xaml",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\App.xaml",
+              "RelativeToolTip": "MauiBlazor\\App.xaml",
+              "ViewState": "AQIAABIAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-14T16:11:28.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MauiBlazor\\MainPage.xaml",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MauiBlazor\\MainPage.xaml",
+              "RelativeToolTip": "MauiBlazor\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-14T16:11:32.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserEndpoints.cs",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\UserEndpoints.cs",
+              "RelativeDocumentMoniker": "MinimalApi\\UserEndpoints.cs",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\UserEndpoints.cs",
+              "RelativeToolTip": "MinimalApi\\UserEndpoints.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T15:57:37.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\Business\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Business\\UnitOfWork.cs",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\Business\\UnitOfWork.cs",
+              "RelativeToolTip": "Business\\UnitOfWork.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T15:51:53.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\DataAccess\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\DataAccess\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "DataAccess\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAgwCUAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T15:51:12.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuthenticationExtension.cs",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\AuthenticationExtension.cs",
+              "RelativeDocumentMoniker": "MinimalApi\\AuthenticationExtension.cs",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\AuthenticationExtension.cs",
+              "RelativeToolTip": "MinimalApi\\AuthenticationExtension.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T15:46:09.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\appsettings.json",
+              "RelativeDocumentMoniker": "MinimalApi\\appsettings.json",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\MinimalApi\\appsettings.json",
+              "RelativeToolTip": "MinimalApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-14T15:43:47.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeleteProduct.razor",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\Pages\\DeleteProduct.razor",
+              "RelativeDocumentMoniker": "BlazorWeb\\Pages\\DeleteProduct.razor",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\Pages\\DeleteProduct.razor",
+              "RelativeToolTip": "BlazorWeb\\Pages\\DeleteProduct.razor",
+              "ViewState": "AQIAACEAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T15:41:57.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditProduct.razor",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\Pages\\EditProduct.razor",
+              "RelativeDocumentMoniker": "BlazorWeb\\Pages\\EditProduct.razor",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\Pages\\EditProduct.razor",
+              "RelativeToolTip": "BlazorWeb\\Pages\\EditProduct.razor",
+              "ViewState": "AQIAACcAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T15:41:54.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Products.razor",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\Pages\\Products.razor",
+              "RelativeDocumentMoniker": "BlazorWeb\\Pages\\Products.razor",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\Pages\\Products.razor",
+              "RelativeToolTip": "BlazorWeb\\Pages\\Products.razor",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T15:41:00.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorWeb\\Pages\\Home.razor",
+              "ToolTip": "D:\\LatinoNetSetiembre2024\\Demo\\NLayer\\BlazorWeb\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorWeb\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T15:40:34.669Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

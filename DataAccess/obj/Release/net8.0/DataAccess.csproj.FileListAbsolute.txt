@@ -1,0 +1,14 @@
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\bin\Release\net8.0\DataAccess.deps.json
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\bin\Release\net8.0\DataAccess.runtimeconfig.json
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\bin\Release\net8.0\DataAccess.dll
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\bin\Release\net8.0\DataAccess.pdb
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\obj\Release\net8.0\DataAccess.csproj.AssemblyReference.cache
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\obj\Release\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\obj\Release\net8.0\DataAccess.AssemblyInfoInputs.cache
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\obj\Release\net8.0\DataAccess.AssemblyInfo.cs
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\obj\Release\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\obj\Release\net8.0\DataAccess.dll
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\obj\Release\net8.0\refint\DataAccess.dll
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\obj\Release\net8.0\DataAccess.pdb
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\obj\Release\net8.0\DataAccess.genruntimeconfig.cache
+D:\LatinoNetSetiembre2024\Ensayo\NLayer\DataAccess\obj\Release\net8.0\ref\DataAccess.dll

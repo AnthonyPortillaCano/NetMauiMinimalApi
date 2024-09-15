@@ -1,0 +1,46 @@
+﻿@using Models
+@inject HttpClient Http
+@page "/DeleteProduct/{Id}"
+@inject Microsoft.AspNetCore.Components.NavigationManager Navigation
+@inject Microsoft.Extensions.Configuration.IConfiguration config
+<h3>Eliminar Producto</h3>
+<h3>Estas seguro que quiere eliminar este producto</h3>
+<div class="col-md-4">
+      <table class="table">
+           <tr>
+               <td>Nombres</td>
+               <td>@producto.ProductName</td>
+           </tr>
+            <tr>
+            <td>Tipo de producto</td>
+            <td>@producto.ProductType</td>
+           </tr>
+        <tr>
+            <td>Precio</td>
+            <td>@producto.Price</td>
+        </tr>
+      </table>
+      <div class="form-group">
+          <input  type="submit" value="Eliminar" @onclick="@(async()=>await EliminarProducto())" class="btn btn-primary"/>
+        <input  type="button"  value="Cancelar" @onclick="@cancel" class="btn btn-warning"/>
+      </div>
+</div>
+@code {
+    [Parameter]
+    public string Id { get; set; }
+    Product producto = new Product();
+    protected override async Task OnInitializedAsync()
+    {
+        producto = await Http.GetFromJsonAsync<Product>( "Api/Product/Detail/" + Convert.ToInt32(Id));
+    }
+    protected async Task EliminarProducto()
+    {
+
+        await Http.DeleteAsync("Api/Product/Delete/" + Convert.ToInt32(Id));
+        Navigation.NavigateTo("/products");
+    }
+    void cancel()
+    {
+        Navigation.NavigateTo("/products");
+    }
+}

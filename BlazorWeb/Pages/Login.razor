@@ -1,0 +1,72 @@
+﻿@page "/"
+@inject HttpClient Http
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage;
+@using Models
+@using MudBlazor
+@using Newtonsoft.Json
+@inject Microsoft.AspNetCore.Components.NavigationManager Navigation
+@inject Microsoft.Extensions.Configuration.IConfiguration config
+@inject MudBlazor.ISnackbar Snackbar
+<h1>Login</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm Model="@user" OnValidSubmit="@(async()=>await ValidarUsuario())">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <div class="form-group">
+                <label for="Nombre" class="control-label">Usuario</label>
+                <input for="Nombre" class="form-control" @bind="@user.Nombre" />
+            </div>
+            <div class="form-group">
+                <label for="Clave" class="control-label">Clave</label>
+                <input for="Clave" type="password" class="form-control" @bind="@user.Clave" />
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </div>
+        </EditForm>
+    </div>
+
+</div>
+@code {
+    User user = new User();
+    protected async Task ValidarUsuario()
+    {
+        var baseUrl = config["urlApi"];
+        try
+        {
+            var resultado = await Http.PostAsJsonAsync(baseUrl + "Api/Users/ValidateUser", user);
+            var resp = resultado.Content.ReadAsStringAsync().Result;
+            user = JsonConvert.DeserializeObject<User>(resp);
+            if (user == null)
+            {
+                // Display error as a pop-up notification
+                Snackbar.Add("Invalid login credentials.", Severity.Error);
+            }
+            else
+            {
+                await sessionStorage.SetItemAsync("token", user.Token);
+                Navigation.NavigateTo("/products");
+            }
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"An error occurred: {ex.Message}", Severity.Error);
+        }
+     
+    }
+
+    private void ShowError()
+    {
+        try
+        {
+            throw new Exception("This is a test error.");
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"An error occurred: {ex.Message}", Severity.Error);
+        }
+    }
+}

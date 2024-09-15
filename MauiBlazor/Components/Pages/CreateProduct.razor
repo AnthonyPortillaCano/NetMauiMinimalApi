@@ -1,0 +1,48 @@
+﻿@page "/CreateProduct"
+@inject HttpClient Http
+@using Models
+@inject Microsoft.Extensions.Configuration.IConfiguration config
+@inject Microsoft.AspNetCore.Components.NavigationManager Navigation
+<h1>Crear Producto</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <EditForm Model="@product" OnValidSubmit="@(async()=> await CreateProducto())">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <div class="form-group">
+                <label for="ProductName" class="control-label">Nombres</label>
+                <input for="ProductName" class="form-control" @bind="@product.ProductName" />
+            </div>
+            <div class="form-group">
+                <label for="Price" class="control-label">Precio</label>
+                <input for="Price" class="form-control" @bind="@product.Price" />
+            </div>
+            <div class="form-group">
+                <label for="ProductType" class="control-label">Tipo de Producto</label>
+                <input for="ProductType" class="form-control" @bind="@product.ProductType" />
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Guardar</button>
+                <button class="btn btn-warning" @onclick="@cancel">Cancelar</button>
+            </div>
+        </EditForm>
+
+    </div>
+
+
+
+</div>
+@code {
+    Product product = new Product();
+    protected async Task CreateProducto()
+    {
+        await Http.PostAsJsonAsync("Api/Product/Save", product);
+        Navigation.NavigateTo("/products");
+    }
+    void cancel()
+    {
+        Navigation.NavigateTo("/products");
+    }
+}

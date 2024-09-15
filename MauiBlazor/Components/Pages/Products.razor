@@ -1,0 +1,65 @@
+﻿@page "/products"
+@using Models
+@using System.Net.Http.Headers
+@inject HttpClient Http
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
+@inject Microsoft.Extensions.Configuration.IConfiguration config
+@inject Microsoft.AspNetCore.Components.NavigationManager Navigation
+<p><a href="/CreateProduct">Crear Producto</a></p>
+<p>  <input type="button" value="Cerrar Sesion" @onclick="@cerrarSesion" class="btn btn-warning" /></p>
+@if (productos == null)
+{
+    <p><em>Loading ......</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var productElement in productos)
+            {
+                <tr>
+                    <td>@productElement.Id</td>
+                    <td>@productElement.ProductName</td>
+                    <td>@productElement.Price</td>
+                    <td>@productElement.ProductType</td>
+                    <td>
+                        <a class="btn btn-success" href="EditProduct/@productElement.Id">Editar</a>
+                        <a class="btn btn-danger" href="DeleteProduct/@productElement.Id">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@code {
+    private Product[] productos;
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadProduct();
+    }
+    async Task LoadProduct()
+    {
+        var token = await sessionStorage.GetItemAsync<string>("token");
+        Http.DefaultRequestHeaders.Accept.Clear();
+        Http.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+        Http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+        productos = await Http.GetFromJsonAsync<Product[]>("Api/Product/List");
+        if (!productos.Any())
+        {
+            Console.WriteLine("error");
+        }
+    }
+    void cerrarSesion()
+    {
+        sessionStorage.RemoveItemAsync("token");
+        Navigation.NavigateTo("/");
+    }
+}
